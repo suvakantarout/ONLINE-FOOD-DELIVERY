@@ -64,7 +64,7 @@ nav{
     display: flex; /* Arrange in a row */
     justify-content: center;
     align-items: center;
-    margin-left: -35px;
+    margin-left: -40px;
     font-family: "Barlow", sans-serif ;
     font-weight: 600;
     font-style: normal;
@@ -82,8 +82,8 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-right: -65px;
-    margin-top: 12px;
+    margin-right: -60px;
+    margin-top: 7px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     font-weight: bold;
 
@@ -137,21 +137,23 @@ nav{
 #Text h1{
     font-size: 80px;
     font-family: "Barlow", sans-serif;
-    font-weight: 1000;
+    font-weight: 850;
     font-style: italic;
     width: 500px;
     margin-top: -30px;
+    cursor: pointer;
 }
 #H{
     margin-left: 70px;
 
 }
 #Text h2{
-    margin-left: 84px;
+    margin-left: 85px;
     font-size: 30px;
     font-family: "Barlow", sans-serif;
     font-weight: 300px;
     margin-top: -20px;
+    cursor: pointer;
 }
 #Text h3{
     margin-left: 135px;
@@ -159,6 +161,7 @@ nav{
     font-family: "Barlow", sans-serif;
     font-weight: 410px;
     margin-top: -10px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
