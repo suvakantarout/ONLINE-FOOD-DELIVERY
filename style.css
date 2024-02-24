@@ -169,9 +169,15 @@ nav{
     #bg {
         background-size: cover;
     }
+    #logo{
+        font-size: 15px;
+    }
+    #login_signup{
+        font-size: 15px;
+    }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
     /* Mobile styles */
     #Container{
         width: 100vw;
@@ -179,6 +185,67 @@ nav{
         overflow: hidden;
     }
     #bg {
-        background-size: contain;
+        margin-top: -20px;
+        height: auto;
+        width: auto;
+        background-size: 100% 97%;
     }
+    #logo{
+        margin-left: -75px;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+    #logo img{
+        width:70px;
+        height: 34px;
+        margin: 0 10px;
+    }
+    #login{
+        width: 70px;
+        height: 33px;
+        margin-left: -200px;
+        font-size: 13px;
+        margin-top: 2px;
+        cursor: pointer;
+    }
+    #signup{
+        width: 70px;
+        height: 33px;
+        font-size: 13px;
+        margin-top: 2px;
+        cursor: pointer;
+    }
+    #H{
+        margin-left: -55px;
+    }
+    #Text h1{
+        font-size: 55px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -35px;
+        margin-top: -40px;
+        cursor: pointer;
+    }
+    #Text h2{
+        margin-left: 128px;
+        font-size: 25px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 300px;
+        margin-top: -40px;
+        cursor: pointer;
+    }
+    #Text h3{
+        margin-left: 175px;
+        font-size: 25px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 410px;
+        margin-top: -10px;
+        cursor: pointer;
+    }
+    
 }
