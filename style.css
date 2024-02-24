@@ -140,7 +140,7 @@ nav{
     font-weight: 850;
     font-style: italic;
     width: 500px;
-    margin-top: -30px;
+    margin-top: -27px;
     cursor: pointer;
 }
 #H{
@@ -196,38 +196,47 @@ nav{
         justify-content: center;
         align-items: center;
         cursor: pointer;
-
     }
     #logo img{
-        width:70px;
-        height: 34px;
+        width:65px;
+        height: 30px;
         margin: 0 10px;
     }
+    #login_singup{
+        width: 420px;
+        height: 100%;
+    }
     #login{
-        width: 70px;
-        height: 33px;
-        margin-left: -200px;
+        width: 55px;
+        height: 28px;
+        margin-left: -260px;
         font-size: 13px;
-        margin-top: 2px;
+        margin-top: 4px;
         cursor: pointer;
+        padding: 5px 5px;
+        align-items: center;
+        font-size: 13px;
     }
     #signup{
-        width: 70px;
-        height: 33px;
+        width: 55px;
+        height: 28px;
         font-size: 13px;
-        margin-top: 2px;
+        margin-top: 4px;
         cursor: pointer;
+        padding: 5px 5px;
+        align-items: center;
+        font-size: 12px;
     }
     #H{
         margin-left: -55px;
     }
     #Text h1{
-        font-size: 55px;
+        font-size: 60px;
         height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -35px;
+        margin-left: -36px;
         margin-top: -40px;
         cursor: pointer;
     }
