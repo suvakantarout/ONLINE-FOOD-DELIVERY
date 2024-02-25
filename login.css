@@ -29,7 +29,6 @@
     opacity: 1;
 }
 
-
 #Welcome_page {
     overflow: hidden;
     width: 100vw;
@@ -166,7 +165,7 @@ nav{
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 400px) {
     /* Mobile styles */
     #Container{
         width: 100vw;
@@ -175,9 +174,9 @@ nav{
     }
     #bg {
         margin-top: -20px;
-        height: 95%;
+        height: auto;
         width: auto;
-        background-size: 100% 100%;
+        background-size: 100% 97%;
     }
     #logo{
         margin-left: -75px;
@@ -189,43 +188,44 @@ nav{
     #logo img{
         width:65px;
         height: 30px;
-        margin: 0 15px;
+        margin: 0 10px;
     }
     #login_singup{
         width: 420px;
         height: 100%;
     }
     #login{
-        width: 60px;
-        height: 35px;
-        margin-left: -165px;
-        font-size: 10px;
-        margin-top: 6px;
+        width: 55px;
+        height: 28px;
+        margin-left: -260px;
+        font-size: 13px;
+        margin-top: 4px;
         cursor: pointer;
         padding: 5px 5px;
         align-items: center;
         font-size: 13px;
     }
     #signup{
-        width: 60px;
-        height: 35px;
+        width: 55px;
+        height: 28px;
         font-size: 13px;
-        margin-top: 6px;
+        margin-top: 4px;
+        cursor: pointer;
         padding: 5px 5px;
         align-items: center;
         font-size: 12px;
     }
     #H{
-        margin-left: -30px;
+        margin-left: -55px;
     }
     #Text h1{
-        font-size: 70px;
+        font-size: 60px;
         height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -27px;
-        margin-top: -5px;
+        margin-left: -36px;
+        margin-top: -40px;
         cursor: pointer;
     }
     #Text h2{
