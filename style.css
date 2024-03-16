@@ -61,6 +61,7 @@ nav{
     cursor: pointer;
 }
 #logo h1{
+    
     margin-left: -40px;
     color: white;
 }
@@ -95,6 +96,10 @@ nav{
     font-style: normal;
     opacity: 1;
 }
+#login a{
+    text-decoration: none;
+    color: white;
+}
 #login:hover{
     border: 2px solid transparent;
 }
@@ -112,6 +117,10 @@ nav{
     font-weight: 500px;
     font-style: normal;
     opacity: 1;
+}
+#signup a{
+    text-decoration: none;
+    color: black;
 }
 #signup:hover{
     border: 2px solid transparent;

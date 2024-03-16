@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="Welcome_page">
+        <div id="bg">
+            <nav>
+                <div id="logo">
+                <img src="LOGO.png" alt="Error" width="100" height="50">
+                <h1><a href="index.html">Hunger</a></h1>
+                </div>
+            </nav>
+            <div id="Signup_form">
+               <i class="ri-close-large-line"></i>
+                <div id="L">
+                    <h1>Sign up</h1>
+                </div>
+                <div id="user">
+                    <input type="Username"placeholder="Username">
+                    <i class="ri-user-line"></i>
+                </div>
+                <div id="Email">
+                    <input type="Email"placeholder="Email">
+                    <i class="ri-mail-line"></i>
+                </div>
+                <div id="pass">
+                    <input type="password" placeholder="Password" id="pass1">
+                    <i class="ri-eye-line" id="eye"></i>
+                </div>
+                <div id="Signup">
+                    <input type="button" value="SIGN UP">
+                </div>
+                <div id="text">
+                    <h3>Already have an account?<a href="/Login.html">Login</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+      const pass=document.getElementById("pass1");
+      const eye=document.getElementById("eye")
+      console.log(pass.type);
+      eye.addEventListener("click",()=>{
+        if(pass.type === "password"){
+            eye.classList.remove("ri-eye-line");
+            eye.classList.add("ri-eye-off-line");
+            pass.type="text";
+        }
+        else{
+            eye.classList.remove("ri-eye-off-line");
+            eye.classList.add("ri-eye-line");
+            pass.type="password"
+        }
+
+      })
+
+    </script>
+</body>
+</html>
