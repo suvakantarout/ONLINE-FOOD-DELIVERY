@@ -34,8 +34,8 @@
 .ri-close-large-line {
     color: black;
     position: absolute;
-    margin-top: -390px;
-    margin-left: 335px;
+    margin-top: -380px;
+    margin-left: 350px;
     font-size: 15px;
 
 }
@@ -89,7 +89,7 @@ nav {
 
 #Login_form {
     height: 430px;
-    width: 380px;
+    width: 400px;
     background-color: rgb(220, 220, 220);
     background-position: center;
     background-size: cover;
@@ -207,7 +207,7 @@ input::placeholder {
 #text h3 {
     position: absolute;
     color: black;
-    left: 540px;
+    left: 555px;
     top: 470px;
     font-family: "Basic", sans-serif;
     font-size: small;
