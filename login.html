@@ -21,6 +21,7 @@
             </nav>
             <div id="Login_form">
                 <i class="ri-close-large-line"></i>
+                <!-- <a id="cross" href="index.html"><i class="ri-close-large-line"></i></a> -->
                 <div id="L">
                     <h1>Login</h1>
                 </div>
@@ -35,7 +36,7 @@
                 </div>
                 <br>
                 <div>
-                    <button id="submit">S U B M I T</button>
+                    <button id="login">LOGIN</button>
                 </div>
                 <div id="text">
                     <h3>New to Hunger?<a href="/Signup.html">Sign up</a></h3>
@@ -44,24 +45,24 @@
         </div>
     </div>
     <script>
-        const pass=document.getElementById("pass1");
-        const eye=document.getElementById("eye")
+        const pass = document.getElementById("pass1");
+        const eye = document.getElementById("eye")
         console.log(pass.type);
-        eye.addEventListener("click",()=>{
-          if(pass.type === "password"){
-              eye.classList.remove("ri-eye-line");
-              eye.classList.add("ri-eye-off-line");
-              pass.type="text";
-          }
-          else{
-              eye.classList.remove("ri-eye-off-line");
-              eye.classList.add("ri-eye-line");
-              pass.type="password"
-          }
-  
+        eye.addEventListener("click", () => {
+            if (pass.type === "password") {
+                eye.classList.remove("ri-eye-line");
+                eye.classList.add("ri-eye-off-line");
+                pass.type = "text";
+            }
+            else {
+                eye.classList.remove("ri-eye-off-line");
+                eye.classList.add("ri-eye-line");
+                pass.type = "password"
+            }
+
         })
-  
-      </script>
+
+    </script>
 </body>
 
 </html>

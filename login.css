@@ -185,8 +185,8 @@ input::placeholder {
     padding-left: 0px;
 }
 
-#submit {
-    width: 115px;
+#login {
+    width: 300px;
     height: 45px;
     background-color: #E44E3F;
     border-radius: 50px;
@@ -200,7 +200,7 @@ input::placeholder {
     opacity: 1;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -208,7 +208,7 @@ input::placeholder {
     position: absolute;
     color: black;
     left: 540px;
-    top: 420px;
+    top: 470px;
     font-family: "Basic", sans-serif;
     font-size: small;
     cursor: pointer;
@@ -222,96 +222,3 @@ input::placeholder {
 
 }
 
-@media only screen and (max-width: 768px) {
-Tablet styles
- #bg {
-        background-size: cover;
-    }
-    #logo{
-        font-size: 15px;
-    }
-    #login_signup{
-        font-size: 15px;
-    }
-} 
-
-@media only screen and (max-width: 420px) {
-    Mobile styles
-#Container{
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
-    }
-    #bg {
-        margin-top: -20px;
-        height: 95%;
-        width: auto;
-        background-size: 100% 100%;
-    }
-    #logo{
-        margin-left: -75px;
-        margin-top: 5px;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-    }
-    #logo img{
-        width:65px;
-        height: 30px;
-        margin: 0 15px;
-    }
-    #login_singup{
-        width: 420px;
-        height: 100%;
-    }
-    #login{
-        width: 60px;
-        height: 35px;
-        margin-left: -165px;
-        font-size: 10px;
-        margin-top: 6px;
-        cursor: pointer;
-        padding: 5px 5px;
-        align-items: center;
-        font-size: 13px;
-    }
-    #signup{
-        width: 60px;
-        height: 35px;
-        font-size: 13px;
-        margin-top: 6px;
-        padding: 5px 5px;
-        align-items: center;
-        font-size: 12px;
-    }
-    #H{
-        margin-left: -30px;
-    }
-    #Text h1{
-        font-size: 70px;
-        height: 120px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -27px;
-        margin-top: -5px;
-        cursor: pointer;
-    }
-    #Text h2{
-        margin-left: 128px;
-        font-size: 25px;
-        font-family: "Barlow", sans-serif;
-        font-weight: 300px;
-        margin-top: -40px;
-        cursor: pointer;
-    }
-    #Text h3{
-        margin-left: 175px;
-        font-size: 25px;
-        font-family: "Barlow", sans-serif;
-        font-weight: 410px;
-        margin-top: -10px;
-        cursor: pointer;
-    }
-    
-}
