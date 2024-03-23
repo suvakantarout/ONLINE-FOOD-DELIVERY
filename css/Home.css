@@ -4,7 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     z-index: 1;
-    /* background-color: aquamarine; */
+    background-color: rgb(245, 245, 245);
 }
 
 #logo {
@@ -121,6 +121,6 @@ nav {
 #Whats_on_your_mind{
     display: flex;
     margin-top: 4%;
-    margin-left: 2%;
+    margin-left: 4%;
     margin-right: 6%;
 }
