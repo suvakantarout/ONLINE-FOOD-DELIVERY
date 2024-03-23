@@ -1,40 +1,126 @@
-
 nav {
     width: 100%;
     height: 80px;
     display: flex;
     justify-content: space-between;
     z-index: 1;
+    /* background-color: aquamarine; */
 }
 
-#logo{
+#logo {
     width: 250px;
-    height: 100%;
+    height: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: -70px;
-    font-size: 23px;
     cursor: pointer;
-}
-#menu{
-    display: flex;
-    margin-top: 25px;
-    margin-left: -150px;
-    font-family: "Baumans", system-ui;
-    font-weight: 600;
+    margin-top: -10px;
 }
 
-#search_bar{
-    background-color: rgb(230, 230, 230);
-    align-items: center;
+#Menu {
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 12%;
+    font-family: "Baumans", system-ui;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#Menu i {
+    margin-top: 5px;
+    color: #E44E3F;
+}
+
+#search_bar {
+    position: absolute;
+    display: flex;
     justify-content: center;
-    margin-right: 550px;
-    height: 30px;
+    align-items: center;
+    position: relative;
+    margin-top: -25px;
+    margin-right: 50%;
+}
+
+#search_bar input {
     width: 300px;
-    margin-top: 22px;
-    padding: 8px 8px;
-    border: none;
+    height: 40px;
     border-radius: 40px;
-    font-size: 16px;
+    border: 2px solid transparent;
+    font-size: 15px;
+    outline: none;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Baumans", system-ui;
+    background-color: #e7e7e7;
+}
+
+#search_bar i {
+    position: absolute;
+    right: 10px;
+    color: #858585;
+}
+
+#About {
+    position: absolute;
+    display: flex;
+    margin-left: 58%;
+    font-family: "Baumans", system-ui;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#About i {
+    margin-top: 5px;
+}
+
+#Account {
+    position: absolute;
+    display: flex;
+    margin-left: 74%;
+    font-family: "Baumans", system-ui;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#Account i {
+    margin-top: 5px;
+}
+
+#Cart {
+    position: absolute;
+    display: flex;
+    margin-left: 92%;
+    font-family: "Baumans", system-ui;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#Cart i {
+    margin-top: 5px;
+}
+
+#Text{
+    position: absolute;
+    margin-left: 5%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: normal;
+
+}
+
+#Whats_on_your_mind{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 6%;
 }
