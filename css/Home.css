@@ -21,11 +21,11 @@ nav {
 #Menu {
     position: absolute;
     display: flex;
-    margin-top: 10px;
+    margin-top: 13px;
     margin-left: 12%;
     font-family: "Baumans", system-ui;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -69,9 +69,9 @@ nav {
     margin-left: 58%;
     font-family: "Baumans", system-ui;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 #About i {
@@ -84,9 +84,9 @@ nav {
     margin-left: 74%;
     font-family: "Baumans", system-ui;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 #Account i {
@@ -99,9 +99,9 @@ nav {
     margin-left: 92%;
     font-family: "Baumans", system-ui;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 #Cart i {
@@ -111,9 +111,9 @@ nav {
 #Text{
     position: absolute;
     margin-left: 5%;
-    font-family: "Barlow", sans-serif;
+    font-family: "Baumans", sans-serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
 
 }
@@ -123,4 +123,43 @@ nav {
     margin-top: 4%;
     margin-left: 4%;
     margin-right: 6%;
+    cursor: pointer;
 }
+
+.Text{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-left: 8%;
+    margin-right: 5.5%;
+    font-family: "Barlow", sans-serif;
+    font-size: 7px;
+    color: #686868;
+    cursor: pointer;
+}
+
+/* #P{
+    margin-left: 0%;
+} */
+#B{
+    margin-left: -40px;
+} 
+#C{
+    margin-left: 2.5%;
+}
+ #B{
+    margin-left: 2.5%;
+}
+#S{
+    margin-left: 2.5%;
+}
+#Pu{
+    margin-left: 2.5%;
+}
+#D{
+    margin-left: 2.5%;
+}
+#Sh{
+    margin-left: 2.5%;
+} 
