@@ -1,31 +1,46 @@
-nav {
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
-    background-color: rgb(245, 245, 245);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
-#logo {
-    width: 250px;
-    height: 95%;
+header{
+    display: flex;
+    position:fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 20px;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 3px 20px rgb(0, 0, 0,0.1);
+    background-color: white;
+    overflow: hidden;
+}
+
+#logo-menu {
+    /* width: 250px; */
+    /* height: 95%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -70px;
+    /* margin-left: -70px; */
+    /* margin-top: -10px; */
+}
+
+#logo-menu img{
     cursor: pointer;
-    margin-top: -10px;
 }
 
 #Menu {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
-    margin-top: 13px;
-    margin-left: 12%;
+    /* margin-top: 10px; */
+    /* margin-left: 12%; */
     font-family: "Baumans", system-ui;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -33,15 +48,27 @@ nav {
     margin-top: 5px;
     color: #E44E3F;
 }
-
+nav {
+    /* width: 100%; */
+    /* height: 80px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 1; */
+    /* background-color: rgb(245, 245, 245); */
+    gap: 30px;
+    overflow: hidden;
+}
 #search_bar {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -25px;
-    margin-right: 50%;
+    /* margin-top: -25px; */
+    /* margin-right: 50%; */
+    margin-right: 20px;
+    margin-left: 40px;
 }
 
 #search_bar input {
@@ -63,103 +90,117 @@ nav {
     color: #858585;
 }
 
+
+
 #About {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
-    margin-left: 58%;
+    /* margin-left: 58%; */
     font-family: "Baumans", system-ui;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
-    margin-top: 13px;
+    /* margin-top: 10px; */
 }
 
 #About i {
-    margin-top: 5px;
+    margin-top: 3px;
+    margin-right: 5px;
 }
 
 #Account {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
-    margin-left: 74%;
+    /* margin-left: 74%; */
     font-family: "Baumans", system-ui;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
-    margin-top: 13px;
+    /* margin-top: 10px; */
 }
 
 #Account i {
-    margin-top: 5px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+#Account #arrow-down{
+    margin-right: 0px;
 }
 
 #Cart {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
-    margin-left: 92%;
+    /* margin-left: 92%; */
     font-family: "Baumans", system-ui;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
-    margin-top: 13px;
+    /* margin-top: 10px; */
 }
 
 #Cart i {
-    margin-top: 5px;
+    margin-top: 3px;
+    margin-right: 5px;
 }
 
-#Text{
-    position: absolute;
-    margin-left: 5%;
-    font-family: "Baumans", sans-serif;
+main{
+    margin-top: 100px;
+    margin-right: calc(10% + 36px);
+    margin-left: calc(10% + 36px);
+    display: flex;
+    flex-direction: column;
+}
+#categories{
+    padding: 16px;
+}
+#category-heading{
+    /* position: absolute; */
+    /* margin-left: 5%; */
+    font-family: "Barlow", sans-serif;
     font-weight: 600;
     font-size: 20px;
     font-style: normal;
 
 }
 
-#Whats_on_your_mind{
+#category-container{
     display: flex;
-    margin-top: 4%;
-    margin-left: 4%;
-    margin-right: 6%;
+    /* margin-top: 4%; */
+    /* margin-left: 4%; */
+    /* margin-right: 6%; */
+    overflow-x: scroll;
+    scroll-snap-type:x mandatory ;
+    gap: 24px;
+}
+
+#category-container::-webkit-scrollbar{
+    display: none;
+}
+
+.catagory-card{
+    scroll-snap-align: center;
+    box-sizing: border-box;
     cursor: pointer;
 }
 
-.Text{
+.catagory-card img{
+    width: 144px;
+    height: 180px;
+}
 
-    display: flex;
-    justify-content: space-between;
-    font-size: 10px;
-    margin-left: 8%;
-    margin-right: 5.5%;
+hr{
+    margin: 32px 0;
+    border: 0.3px solid rgb(240, 240, 245);
+}
+
+#food-section{
+    padding: 16px;
+}
+
+#food-section-heading{
     font-family: "Barlow", sans-serif;
-    font-size: 7px;
-    color: #686868;
-    cursor: pointer;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: normal;
 }
-
-/* #P{
-    margin-left: 0%;
-} */
-#B{
-    margin-left: -40px;
-} 
-#C{
-    margin-left: 2.5%;
-}
- #B{
-    margin-left: 2.5%;
-}
-#S{
-    margin-left: 2.5%;
-}
-#Pu{
-    margin-left: 2.5%;
-}
-#D{
-    margin-left: 2.5%;
-}
-#Sh{
-    margin-left: 2.5%;
-} 
