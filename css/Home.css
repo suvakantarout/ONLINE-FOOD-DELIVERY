@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    /* border: 1px solid cyan; */
 }
 
 header{
@@ -11,7 +11,7 @@ header{
     top: 0;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px 0 20px;
+    padding: 0 40px 0 25px;
     width: 100%;
     height: 80px;
     box-shadow: 0px 3px 20px rgb(0, 0, 0,0.1);
@@ -28,7 +28,12 @@ header{
     /* margin-left: -70px; */
     /* margin-top: -10px; */
 }
-
+.logo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position:-13px 0px;
+}
 #logo-menu img{
     cursor: pointer;
 }
@@ -146,8 +151,8 @@ nav {
 
 main{
     margin-top: 100px;
-    margin-right: calc(10% + 36px);
-    margin-left: calc(10% + 36px);
+    margin-right: calc(10% );
+    margin-left: calc(10% );
     display: flex;
     flex-direction: column;
 }
@@ -161,7 +166,7 @@ main{
     font-weight: 600;
     font-size: 20px;
     font-style: normal;
-
+    margin-bottom: 16px;
 }
 
 #category-container{
@@ -186,7 +191,21 @@ main{
 
 .catagory-card img{
     width: 144px;
-    height: 180px;
+    height: 130px;
+    object-fit: cover;
+    object-position: top;
+}
+.catagory-card p{
+    font-family: "Baumans", system-ui;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 8px;
+    color: #505050;
+}
+
+.selected p{
+    color: #E44E3F;
 }
 
 hr{
@@ -203,4 +222,122 @@ hr{
     font-weight: 600;
     font-size: 25px;
     font-style: normal;
+    margin-bottom: 16px;
+}
+#food-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(273px,1fr));
+    row-gap: 50px;
+    column-gap: 10px;
+    justify-items: center;
+}
+.food-card{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 273px;
+    overflow: hidden;
+}
+
+.food-card-img{
+    width: 100%;
+    height: 182px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.food-card-text{
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-family: "Baumans", system-ui;
+}
+.food-card-heading{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.food-card-price{
+    font-size: 25px;
+    font-weight: 400;
+}
+.food-card-price span{
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #858585;
+}
+
+.food-card-button{
+    width: 110px;
+    height: 43px;
+    border-radius: 50px;
+    border: none;
+    background-color: #E44E3F;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: 2.5fr 2fr 1fr;
+    background-color: #212121;
+    color: white;
+    gap: 40px;
+    padding: 48px 10% 100px 10%;
+    margin-top: 50px;
+    overflow: hidden;
+    font-family: "Barlow", sans-serif;
+}
+
+#footer-left-heading{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#footer-left-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#footer-left p{
+    color: #9C9B9B;
+    font-weight: 600;
+    font-size: 18px;
+}
+#footer-center p{
+    color: #9C9B9B;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.footer-headings{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 50px;
+}
+
+#social-media{
+    display: flex;
+    gap: 20px;
+    align-self: end;
+}
+#social-media i{
+    font-size: 30px;
+    color: #9C9B9B;
+    cursor: pointer;
+}
+
+#footer-center{
+    overflow: hidden;
 }

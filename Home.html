@@ -13,7 +13,7 @@
 <body>
     <header>
         <div id="logo-menu">
-            <img src="images/LOGO.png" alt="Logo" width="100" height="50">
+            <img class="logo" src="images/LOGO.png" alt="Logo">
             <h1 id="Menu">Menu <i class="ri-arrow-down-s-fill"></i></h1>
         </div>
         <nav>
@@ -22,7 +22,8 @@
                 <i class="ri-search-line"></i>
             </div>
             <h1 id="About"> <i class="ri-information-line"></i>About</h1>
-            <h1 id="Account"><i class="ri-account-circle-line"></i>Username<i id="arrow-down" class="ri-arrow-down-s-fill"></i></h1>
+            <h1 id="Account"><i class="ri-account-circle-line"></i>Username<i id="arrow-down"
+                    class="ri-arrow-down-s-fill"></i></h1>
             <h1 id="Cart"><i class="ri-shopping-cart-line"></i>Cart</h1>
         </nav>
     </header>
@@ -30,35 +31,45 @@
         <section id="categories">
             <h2 id="category-heading">Whats on your mind ?</h2>
             <div id="category-container">
-                <div class="catagory-card">
+                <div class="catagory-card selected">
                     <img src="images/categories/Pizza.png" alt="ERROR">
+                    <p class="catagory-name">Pizza</p>
                 </div>
                 <div class="catagory-card">
                     <img src="images/categories/Burger.png" alt="ERROR">
+                    <p class="catagory-name">Burger</p>
                 </div>
                 <div class="catagory-card">
                     <img src="images/categories/Biryani.png" alt="ERROR">
+                    <p class="catagory-name">Biryani</p>
                 </div>
                 <div class="catagory-card">
                     <img src="images/categories/Chinese.png" alt="ERROR">
+                    <p class="catagory-name">Chinese</p>
                 </div>
                 <div class="catagory-card">
                     <img src="images/categories/Dosa.png" alt="ERROR">
+                    <p class="catagory-name">Dosa</p>
                 </div>
                 <div class="catagory-card">
                     <img src="images/categories/Rolls.png" alt="ERROR">
+                    <p class="catagory-name">Rolls</p>
                 </div>
                 <div class="catagory-card">
                     <img src="images/categories/Salad.png" alt="ERROR">
+                    <p class="catagory-name">Salad</p>
                 </div>
                 <div class="catagory-card">
                     <img src="images/categories/Cakes.png" alt="ERROR">
+                    <p class="catagory-name">Cakes</p>
                 </div>
                 <div class="catagory-card">
                     <img src="images/categories/Ice_Creams.png" alt="ERROR">
+                    <p class="catagory-name">Ice Creams</p>
                 </div>
                 <div class="catagory-card">
                     <img src="images/categories/Shakes.png" alt="ERROR">
+                    <p class="catagory-name">Shakes</p>
                 </div>
             </div>
         </section>
@@ -66,16 +77,145 @@
         <section id="food-section">
             <h2 id="food-section-heading">Your cravings are here!</h2>
             <div id="food-container">
-                <!-- FOOD ITEMS -->
+
+                <div class="food-card">
+                    <img class="food-card-img" src="images/food_images/img1.png" alt="ERROR">
+                    <div class="food-card-text">
+                        <div class="food-card-text-left">
+                            <p class="food-card-heading">Chicken Sausage Pizza</p>
+                            <p class="food-card-price"> &#8377;250/- <span>&#8377; 350/-</span></p>
+                        </div>
+                        <div class="food-card-text-right">
+                            <button class="food-card-button">ADD</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <img class="food-card-img" src="images/food_images/img1.png" alt="ERROR">
+                    <div class="food-card-text">
+                        <div class="food-card-text-left">
+                            <p class="food-card-heading">Chicken Sausage Pizza</p>
+                            <p class="food-card-price"> &#8377;250/- <span>&#8377; 350/-</span></p>
+                        </div>
+                        <div class="food-card-text-right">
+                            <button class="food-card-button">ADD</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <img class="food-card-img" src="images/food_images/img1.png" alt="ERROR">
+                    <div class="food-card-text">
+                        <div class="food-card-text-left">
+                            <p class="food-card-heading">Chicken Sausage Pizza</p>
+                            <p class="food-card-price"> &#8377;250/- <span>&#8377; 350/-</span></p>
+                        </div>
+                        <div class="food-card-text-right">
+                            <button class="food-card-button">ADD</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <img class="food-card-img" src="images/food_images/img1.png" alt="ERROR">
+                    <div class="food-card-text">
+                        <div class="food-card-text-left">
+                            <p class="food-card-heading">Chicken Sausage Pizza</p>
+                            <p class="food-card-price"> &#8377;250/- <span>&#8377; 350/-</span></p>
+                        </div>
+                        <div class="food-card-text-right">
+                            <button class="food-card-button">ADD</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <img class="food-card-img" src="images/food_images/img1.png" alt="ERROR">
+                    <div class="food-card-text">
+                        <div class="food-card-text-left">
+                            <p class="food-card-heading">Chicken Sausage Pizza</p>
+                            <p class="food-card-price"> &#8377;250/- <span>&#8377; 350/-</span></p>
+                        </div>
+                        <div class="food-card-text-right">
+                            <button class="food-card-button">ADD</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <img class="food-card-img" src="images/food_images/img1.png" alt="ERROR">
+                    <div class="food-card-text">
+                        <div class="food-card-text-left">
+                            <p class="food-card-heading">Chicken Sausage Pizza</p>
+                            <p class="food-card-price"> &#8377;250/- <span>&#8377; 350/-</span></p>
+                        </div>
+                        <div class="food-card-text-right">
+                            <button class="food-card-button">ADD</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <img class="food-card-img" src="images/food_images/img1.png" alt="ERROR">
+                    <div class="food-card-text">
+                        <div class="food-card-text-left">
+                            <p class="food-card-heading">Chicken Sausage Pizza</p>
+                            <p class="food-card-price"> &#8377;250/- <span>&#8377; 350/-</span></p>
+                        </div>
+                        <div class="food-card-text-right">
+                            <button class="food-card-button">ADD</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <img class="food-card-img" src="images/food_images/img1.png" alt="ERROR">
+                    <div class="food-card-text">
+                        <div class="food-card-text-left">
+                            <p class="food-card-heading">Chicken Sausage Pizza</p>
+                            <p class="food-card-price"> &#8377;250/- <span>&#8377; 350/-</span></p>
+                        </div>
+                        <div class="food-card-text-right">
+                            <button class="food-card-button">ADD</button>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
     </main>
     <footer>
-        
+        <div id="footer-left">
+            <div id="footer-left-heading">
+                <img class="logo" src="images/LOGO.png" alt="Error">
+                <h1>Hunger</h1>
+            </div>
+            <p>"Hunger" is a dynamic food ordering website revolutionizing 
+                the culinary experience. Seamlessly connecting users with a 
+                myriad of gastronomic delights, it offers a user-friendly interface,
+                real-time updates, and diverse culinary options. With its intuitive 
+                design and efficient service, Hunger promises to satisfy cravings 
+                and elevate dining experiences with just a few clicks.
+            </p>
+        </div>
+        <div id="footer-center">
+            <h2 class="footer-headings">CONTACT</h2>
+            <p>About Us</p>
+            <p>Service</p>
+            <p>Get In Touch</p>
+        </div>
+        <div id="footer-right">
+            <h2 class="footer-headings">FOLLOWS US</h2>
+            <div id="social-media">
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+            </div>
+        </div>
     </footer>
     <script src="js/Home.js"></script>
 </body>
 
 </html>
-
