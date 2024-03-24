@@ -62,6 +62,7 @@ nav {
     /* z-index: 1; */
     /* background-color: rgb(245, 245, 245); */
     gap: 30px;
+    /* position: relative; */
     overflow: hidden;
 }
 #search_bar {
@@ -114,7 +115,7 @@ nav {
 }
 
 #Account {
-    /* position: absolute; */
+    position: relative;
     display: flex;
     /* margin-left: 74%; */
     font-family: "Baumans", system-ui;
@@ -133,6 +134,26 @@ nav {
     margin-right: 0px;
 }
 
+#logout{
+    display: none;
+    position:fixed;
+    top: 60px;
+    left: 86%;
+    z-index: 1;
+    text-decoration: none;
+    transition: all 0.3s;
+    background-color: #f0f0f0;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+#logout a{
+    text-decoration: none;
+    color: #E44E3F;
+    font-family: "Baumans", system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
 #Cart {
     /* position: absolute; */
     display: flex;
