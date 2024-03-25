@@ -16,7 +16,7 @@ header{
     height: 80px;
     box-shadow: 0px 3px 20px rgb(0, 0, 0,0.1);
     background-color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #logo-menu {
@@ -47,11 +47,34 @@ header{
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
+    position: relative;
 }
 
 #Menu i {
     margin-top: 5px;
     color: #E44E3F;
+}
+#Menu ul{
+    display: none;
+    position: absolute;
+    width: max-content;
+    top: 30px;
+    left: 10px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px rgb(0, 0, 0,0.1);
+    z-index: 10;
+}
+
+#Menu ul li{
+    list-style: none;
+    margin: 10px 0;
+    color: #E44E3F;
+}
+
+#Menu:hover ul{
+    display: block;
 }
 nav {
     /* width: 100%; */
@@ -63,7 +86,7 @@ nav {
     /* background-color: rgb(245, 245, 245); */
     gap: 35px;
     /* position: relative; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #search_bar {
     /* position: absolute; */
@@ -90,10 +113,13 @@ nav {
     background-color: #e7e7e7;
 }
 
-#search_bar i {
+#search_bar button {
     position: absolute;
     right: 10px;
     color: #858585;
+    border: none;
+    background-color: transparent;
+    padding: 7px;
 }
 
 
@@ -135,13 +161,14 @@ nav {
 
 #logout{
     display: none;
-    position:fixed;
-    top: 60px;
-    left: 86%;
-    z-index: 1;
+    position:absolute;
+    top: 30px;
+    left: 15px;
+    z-index: 10;
     text-decoration: none;
     transition: all 0.3s;
-    background-color: #f0f0f0;
+    background-color: #fff;
+    box-shadow: 0px 3px 20px rgb(0, 0, 0,0.1);
     padding:10px 20px;
     border-radius: 10px;
 }

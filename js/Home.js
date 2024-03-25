@@ -1,4 +1,5 @@
-document.getElementById('Account').addEventListener('click', function() {
+document.getElementById('arrow-down').addEventListener('click', function(e) {
+    e.stopPropagation();
     var logoutDiv = document.getElementById('logout');
     if (logoutDiv.style.display === 'none' || logoutDiv.style.display === '') {
         logoutDiv.style.display = 'block';
