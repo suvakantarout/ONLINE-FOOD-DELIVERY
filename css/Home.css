@@ -57,14 +57,24 @@ header{
 #Menu ul{
     display: none;
     position: absolute;
-    width: max-content;
+    width:170px ;
     top: 30px;
     left: 10px;
     background-color: #ffffff;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 10px;
     box-shadow: 0px 3px 20px rgb(0, 0, 0,0.1);
     z-index: 10;
+}
+.show-before::before{
+    /* display: none; */
+    content: "";
+    position: fixed;
+    width: 100dvw;
+    height: 100dvh;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,0.2);
 }
 
 #Menu ul li{
@@ -74,6 +84,9 @@ header{
 }
 
 #Menu:hover ul{
+    display: block;
+}
+#Menu:hover ~ #header::before{
     display: block;
 }
 nav {
