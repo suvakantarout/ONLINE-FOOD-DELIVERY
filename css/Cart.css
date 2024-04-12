@@ -142,22 +142,6 @@ nav {
     color: #e44e3f;
 
 }
-#F1,
-#F2,
-#F3,
-#F4 {
-    font-size: 20px;
-    font-family: "Barlow", sans-serif;
-    margin-left: 8%;
-    margin-top: 5%;
-}
-
-.Quantity {
-    height: 5vh;
-    width: 6.5vw;
-    margin-left: 70px;
-    margin-top: 2%;
-}
 
 #pricing {
     height: 75vh;
