@@ -88,7 +88,7 @@ nav {
 }
 
 #cart {
-    height: 80vh;
+    min-height: 80dvh;
     width: 95vw;
     border-radius: 10px;
     background-color: #F0F0F0;
@@ -100,12 +100,14 @@ nav {
 }
 
 #food_items {
-    height: 50vh;
+    min-height: 50vh;
+    height: fit-content;
     width: 45vw;
     border-radius: 30px;
     background-color: #ffffff;
     margin-top: 2%;
     padding:40px 40px;
+    overflow: hidden;
 }
 #food_items table{
     width: 100%;
@@ -140,9 +142,16 @@ nav {
     width: 50px;
     text-align: center;
     color: #e44e3f;
+    font-size: 16px;
+    font-weight: 400;
 
 }
-
+.cart-list-qty input:focus{
+    outline: none;
+}
+.cart-list-qty input::selection{
+    background-color: transparent;
+}
 #pricing {
     height: 75vh;
     width: 38vw;
