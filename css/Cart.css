@@ -105,8 +105,43 @@ nav {
     border-radius: 30px;
     background-color: #ffffff;
     margin-top: 2%;
+    padding:40px 40px;
+}
+#food_items table{
+    width: 100%;
+    border-spacing:0 20px ;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
 }
 
+#food_items table tr a{
+    text-decoration: none;
+    color: #e44e3f;
+}
+.cart-list-qty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #B9B9B9;
+    border-radius: 10px;
+    height: 43px;
+    padding: 0 10px;
+    width: fit-content;
+    color: #e44e3f;
+}
+.cart-list-qty a{
+    text-decoration: none;
+    color: #e44e3f;
+
+}
+.cart-list-qty input{
+    border: none;
+    background-color: transparent;
+    width: 50px;
+    text-align: center;
+    color: #e44e3f;
+
+}
 #F1,
 #F2,
 #F3,

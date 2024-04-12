@@ -28,25 +28,50 @@
     </div>
     <div id="cart">
         <div id="food_items">
-            <h1 class="food-item" id="F1">Chicken sausage pizza <button class="Quantity">- 1 +</button>₹149</h1>
-            <h1 class="food-item" id="F2">Non veg loaded pizza <button class="Quantity">- 1 +</button> ₹299</h1>
-            <h1 class="food-item" id="F3">Malai paneer pizza <button class="Quantity">- 1 +</button> ₹349</h1>
-            <h1 class="food-item" id="F4">Paneer and capsicum pizza <button class="Quantity">- 1 +</button> ₹179</h1>
+            <table>
+                <tr class="cart-list">
+					<td class="cart-list-name">Chicken Sausage pizza</td>
+					<td>
+                        <input type="hidden" name="id" value="*id*" class="form-input">
+                        <div class="cart-list-qty">
+                            <a class="cart-list-inc" href="#"><i class="ri-add-line"></i></a> 
+                            <input type="text" name="quantity" class="form-control"  value="1" readonly> 
+                            <a class="cart-list-dec" href="#"><i class="ri-subtract-line"></i></a>
+                        </div>
+					</td>
+                    <td class="cart-list-price">&#8377;140.0/-</td>
+					<td class="cart-list-remove"><a href="#" class=""><i class="ri-close-circle-line"></i></a></td>
+				</tr>
+                <tr class="cart-list">
+					<td class="cart-list-name">Chicken Sausage pizza</td>
+					<td>
+                        <input type="hidden" name="id" value="*id*" class="form-input">
+                        <div class="cart-list-qty">
+                            <a class="cart-list-inc" href="#"><i class="ri-add-line"></i></a> 
+                            <input type="text" name="quantity" class="form-control"  value="1" readonly> 
+                            <a class="cart-list-dec" href="#"><i class="ri-subtract-line"></i></a>
+                        </div>
+					</td>
+                    <td class="cart-list-price">&#8377;140.0/-</td>
+					<td class="cart-list-remove"><a href="#" class=""><i class="ri-close-circle-line"></i></a></td>
+				</tr>
+            </table>
+            <!-- <h1 class="food-item" id="F1">Chicken sausage pizza <button class="Quantity">- 1 +</button>₹149
+                <h1 class="food-item" id="F2">Non veg loaded pizza <button class="Quantity">- 1 +</button> ₹299</h1>
+                <h1 class="food-item" id="F3">Malai paneer pizza <button class="Quantity">- 1 +</button> ₹349</h1>
+                <h1 class="food-item" id="F4">Paneer and capsicum pizza <button class="Quantity">- 1 +</button> ₹179
+                </h1> -->
         </div>
         <div id="pricing">
             <div id="pricing-text">
-                <!-- <div id="pricing-text-left"> -->
-                    <h1>Item Total</h1>
-                    <h1>&#8377;140.0/-</h1>
-                    <h1>Plartform Fee</h1>
-                    <h1>&#8377;19.0/-</h1>
-                    <h1>GST and Resturant Charges</h1>
-                    <h1>&#8377;24.0/-</h1>
-                    <h1 class="toPay">To pay</h1>
-                    <h1 class="toPay">&#8377;500.0/-</h1>
-                <!-- </div> -->
-                <!-- <div id="pricing-text-right"> -->
-                <!-- </div> -->
+                <h1>Item Total</h1>
+                <h1>&#8377;140.0/-</h1>
+                <h1>Plartform Fee</h1>
+                <h1>&#8377;19.0/-</h1>
+                <h1>GST and Resturant Charges</h1>
+                <h1>&#8377;24.0/-</h1>
+                <h1 class="toPay">To pay</h1>
+                <h1 class="toPay">&#8377;500.0/-</h1>
             </div>
             <div id="pricing-btn">
                 <button id="checkout">
