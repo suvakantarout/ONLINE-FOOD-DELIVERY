@@ -40,6 +40,8 @@ nav {
     cursor: pointer;
 }
 
+
+#Home,
 #About,
 #Account {
     display: flex;
@@ -49,6 +51,7 @@ nav {
     cursor: pointer;
 }
 
+#Home i,
 #About i,
 #Account i {
     margin-top: 3px;
@@ -91,6 +94,7 @@ nav {
     justify-content: center;
     align-items: center;
     z-index: 9999;
+    overflow: hidden;
 }
 
 #ECh1 {
