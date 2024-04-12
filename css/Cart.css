@@ -61,7 +61,9 @@ nav {
 #Account #arrow-down {
     margin-right: 0px;
 }
-
+#Account{
+    position: relative;
+}
 #logout {
     display: none;
     position: absolute;
@@ -133,6 +135,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 
 }
 #pricing-text{
@@ -141,12 +144,17 @@ nav {
     justify-items: stretch;
     align-items: center;
     gap: 75px;
-    column-gap: 133px;
-    margin-left: 45px;
+    column-gap: 11vw;
+    margin-left: 10%;
+    overflow: hidden;
 }
 #pricing-text h1{
     font-size: 20px;
     font-family: "Barlow", sans-serif;
+    font-weight: 400;
+}
+#pricing-text .toPay{
+    font-weight: 700;
 }
 #checkout {
     height: 8vh;
