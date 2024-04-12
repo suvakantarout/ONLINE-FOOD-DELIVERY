@@ -109,7 +109,7 @@ nav {
 }
 #food_items table{
     width: 100%;
-    border-spacing:0 20px ;
+    border-spacing:10px 20px ;
     font-size: 20px;
     font-family: "Barlow", sans-serif;
 }
