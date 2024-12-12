@@ -136,7 +136,7 @@ nav{
     font-size: 15px;
     color:black;
     outline: none;
-    padding: 20px;
+    padding: 15px;
 }
 
 #Email{
@@ -160,29 +160,28 @@ nav{
     margin-left: -10px;
     color: black;
     outline: none;
-    padding: 20px;
+    padding: 15px;
 }
- input::placeholder{
+input::placeholder{
     font-size: 20px;
     padding-left: 20px;
     padding-left: 0px;
 
 }
-
-#pass{
+#phone{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 400px;
     height: 50px;
 }
-#pass i{
+#phone i{
     position: absolute;
     margin-left: 240px;
     color: #727171;
     
 }
-#pass input{
+#phone input{
     width: 300px;
     height: 45px;
     border-radius: 25px;
@@ -190,36 +189,31 @@ nav{
     margin-left: -10px;
     outline: none;
     color: black;
-    padding: 20px;
+    padding: 15px;
 }
- input::placeholder{
+
+input::placeholder{
     font-size: 15px;
     padding-left: 20px;
     padding-left: 0px;
 
 }
-#Signup{
+#signup{
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 50px;
-}
-#Signup a{
-    margin-left: -10px;
-}
-#Signup input{
+    justify-content: center;
     width: 300px;
     height: 45px;
-    border-radius: 25px;
-    border: 2px solid transparent;
-    /* margin-left: -px; */
-    margin-top: 5px;
-    outline: none;
-    color: white;
     background-color: #E44E3F;
+    border-radius: 25px;
+    font-size: 13px;
+    font-family: "Basic", sans-serif;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-left: -10px;
 }
-
 
 #text h3{
     position: absolute;

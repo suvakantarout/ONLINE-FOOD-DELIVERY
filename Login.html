@@ -20,33 +20,37 @@
                 </div>
             </nav>
             <div id="Login_form">
-                <i class="ri-close-large-line"></i>
+                <!-- <i class="ri-close-large-line"></i> -->
                 <!-- <a id="cross" href="index.html"><i class="ri-close-large-line"></i></a> -->
                 <div id="L">
                     <h1>Login</h1>
+                    <!-- <p>Use your Email from which you have created the account.</p> -->
                 </div>
                 <div id="user">
-                    <input type="Username" placeholder="Username">
+                    <input type="email" placeholder="Email">
                     <i class="ri-user-line"></i>
                 </div>
                 <br>
-                <div id="pass">
+                <!-- <div id="pass">
                     <input type="Password" placeholder="Password" id="pass1">
                     <i class="ri-eye-line" id="eye"></i>
-                </div>
-                <br>
-                <div>
-                    <a href="Home.html">
-                        <button id="login">LOGIN</button>
-                    </a>
-                </div>
+                </div> -->
+            
+                <a id="get_otp" href="Home.html">
+                    GET OTP&nbsp;<i class="ri-arrow-right-line"></i>
+                </a>
+                <!-- <button id="get_otp">
+                    GET OTP
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+                 -->
                 <div id="text">
                     <h3>New to Hunger?<a href="Signup.html">Sign up</a></h3>
                 </div>
             </div>
         </div>
     </div>
-    <script>
+    <!-- <script>
         const pass = document.getElementById("pass1");
         const eye = document.getElementById("eye")
         console.log(pass.type);
@@ -64,7 +68,12 @@
 
         })
 
-    </script>
+    </script> -->
+    <!-- <script>
+        document.getElementById("get_otp").addEventListener("click", function () {
+            window.location.href = "home.html";
+        });
+    </script> -->
 </body>
 
 </html>

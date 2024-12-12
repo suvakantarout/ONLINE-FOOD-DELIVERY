@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    text-decoration: none;
 }
 
 #bg {
@@ -119,6 +120,10 @@ nav {
     margin-top: -5px;
     font-weight: 550;
 }
+#L p{
+    color: gray;
+    text-align: center;
+}
 
 #user {
     display: flex;
@@ -135,10 +140,6 @@ nav {
     color: #727171;
 }
 
-input::-ms-value {
-    margin-left: 20px;
-}
-
 #user input {
     width: 300px;
     height: 45px;
@@ -148,60 +149,25 @@ input::-ms-value {
     margin-left: -5px;
     outline: none;
     color: black;
-    padding: 20px;
+    padding: 15px;
 
 }
-
-#pass {
+#get_otp{
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 50px;
-    margin-left: -15px;
-}
-
-#pass i {
-    margin-left: -30px;
-    color: #727171;
-
-}
-
-#pass input {
-    width: 300px;
-    height: 45px;
-    border-radius: 25px;
-    border: 2px solid transparent;
-    margin-left: -5px;
-    outline: none;
-    font-size: 15px;
-    color: black;
-    padding: 20px;
-}
-
-input::placeholder {
-    font-size: 15px;
-    padding-left: 0px;
-}
-
-#login {
+    justify-content: center;
     width: 300px;
     height: 45px;
     background-color: #E44E3F;
     border-radius: 50px;
-    cursor: pointer;
     font-size: 13px;
-    border: none;
-    color: white;
-    font-family: "Biryani", sans-serif;
+    font-family: "Basic", sans-serif;
     font-weight: 600;
-    font-style: normal;
-    opacity: 1;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+    color: white;
     cursor: pointer;
+    box-sizing: border-box;
 }
+
 
 #text h3 {
     position: absolute;
